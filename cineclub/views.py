@@ -11,7 +11,7 @@ filmes = {
         'titulo': 'Anjos da Noite',
         'sinopse': 'Selene é uma vampira feroz que está em meio a uma guerra entre vampiros e lobisomens. Sua missão é proteger sua raça enquanto busca respostas sobre seu próprio passado.',
         'elenco': 'Kate Beckinsale, Scott Speedman, Michael Sheen',
-        'poster': '/img/UnderworldBloodWars.jpg'
+        'poster': 'static/img/cartaz/UnderworldBloodWars.jpg'
     },
     2: {
         'titulo': 'Oppenheimer',
