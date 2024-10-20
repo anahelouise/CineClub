@@ -34,12 +34,11 @@ header .logo {
     flex-wrap: wrap;
     margin-top: 80px;
     grid-template-columns: repeat(5, 1fr);
-    /* colunas */
 }
 
 .film {
     background-color: #222;
-    border: 2px solid #444;
+    border: 2px solid #4e4e4e;
     border-radius: 10px;
     padding: 10px;
     width: 250px;
@@ -82,7 +81,7 @@ header .logo {
 }
 
 .film button:hover {
-    background-color: #d40813;
+    background-color: #94060d;
 }
 
 @media (max-width: 768px) {
