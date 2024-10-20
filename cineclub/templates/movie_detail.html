@@ -6,7 +6,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>{{ filme.titulo }}</title>
-    <link rel="stylesheet" href="{% static '/css/movie_detail.css' %}">
+    <link rel="stylesheet" href="{% static 'css/new.css' %}">
     <link rel="icon" href="{% static 'img/favicon.ico' %}" type="image/x-icon">
 </head>
 
@@ -17,7 +17,7 @@
     <main>
         <div class="movie-detail">
             <img src="{% static filme.poster %}" alt="Poster do Filme">  <!-- Corrigido -->
-            <h2>{{ filme.titulo }}</h2>
+            <!--<h2>{{ filme.titulo }}</h2>-->
             <p><strong>Sinopse:</strong> {{ filme.sinopse }}</p>
             <p><strong>Elenco:</strong> {{ filme.elenco }}</p>
         </div>

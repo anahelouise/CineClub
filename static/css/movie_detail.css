@@ -1,0 +1,85 @@
+/* Reset de estilo básico */
+@import url('https://fonts.googleapis.com/css?family=Poppins:200,300,400,500,600,700,800,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Estilo do corpo */
+body {
+    background-color: #f5f5f5;
+    padding: 20px;
+}
+
+
+/* Seção de detalhes do filme */
+.movie-detail {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #222;
+    border: 2px solid #444;
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 80px;
+    text-align: center;
+    width: 100%;
+    max-width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.movie-detail img {
+    width: 100%;
+    height: 400px;
+    object-fit: cover; /* Garante que a imagem ocupe todo o espaço sem distorcer */
+    border-radius: 6px;
+    margin-bottom: 20px;
+}
+
+.movie-detail h2 {
+    font-size: 1.8rem;
+    color: #fff;
+    margin-bottom: 15px;
+}
+
+.movie-detail p {
+    font-size: 1rem;
+    color: #ccc;
+    margin-bottom: 10px;
+}
+
+/* Seção de comentários */
+.comments-section {
+    background-color: #333;
+    border: 2px solid #444;
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+.comments-section h3 {
+    font-size: 1.5rem;
+    color: #fff;
+    margin-bottom: 15px;
+}
+
+.comments-section p {
+    font-size: 1rem;
+    color: #ccc;
+}
+
+/* Responsividade */
+@media (max-width: 768px) {
+    .movie-detail {
+        width: 90%;
+    }
+
+    .movie-detail img {
+        height: auto; /* Ajuste para telas menores */
+    }
+}

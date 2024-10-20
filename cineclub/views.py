@@ -8,34 +8,35 @@ def home(request):
 # Dicionário com informações dos filmes
 filmes = {
     1: {
-        'titulo': 'Anjos da Noite',
-        'sinopse': 'Selene é uma vampira feroz que está em meio a uma guerra entre vampiros e lobisomens...',
-        'elenco': 'Kate Beckinsale, Scott Speedman, Michael Sheen',
-        'poster': 'img/cartaz/UnderworldBloodWars.jpg',  # Corrigido
+        'titulo': 'Resident Evil 6: O Capitulo Final',
+        'sinopse': 'Sobrevivente do massacre zumbi, Alice retorna para onde o pesadelo começou...',
+        'elenco': 'Milla Jovovich, Ruby Rose, Iain Glen, Shawn Roberts',
+        'poster': 'img/cartaz/ResidentEvil6.jpg',  
     },
     2: {
         'titulo': 'Oppenheimer',
         'sinopse': 'O drama biográfico sobre J. Robert Oppenheimer...',
         'elenco': 'Cillian Murphy, Emily Blunt, Matt Damon, Robert Downey Jr.',
-        'poster': 'img/cartaz/Oppenheimer.png',  # Corrigido
+        'poster': '/img/cartaz/Oppenheimer.png',  
     },
     3: {
+        'titulo': 'Anjos da Noite',
+        'sinopse': 'Selene é uma vampira feroz que está em meio a uma guerra entre vampiros e lobisomens...',
+        'elenco': 'Kate Beckinsale, Scott Speedman, Michael Sheen',
+        'poster': 'img/cartaz/UnderworldBloodWars.jpg',  
+    },
+    4: {
         'titulo': 'Viúva Negra',
         'sinopse': 'A espiã Natasha Romanoff confronta os eventos sombrios de seu passado...',
         'elenco': 'Scarlett Johansson, Florence Pugh, David Harbour, Rachel Weisz',
-        'poster': 'img/cartaz/BlackWidow.jpg',  # Corrigido
+        'poster': 'img/cartaz/BlackWidow.jpg', 
     },
-    4: {
+
+    5: {
         'titulo': 'Vingadores Endgame',
         'sinopse': 'Os Vingadores precisam lidar com a destruição causada por Thanos...',
         'elenco': 'Robert Downey Jr., Chris Evans, Mark Ruffalo, Chris Hemsworth',
-        'poster': 'img/cartaz/AvengersEndgame.jpg',  # Corrigido
-    },
-    5: {
-        'titulo': 'Resident Evil 6: O Capitulo Final',
-        'sinopse': 'Sobrevivente do massacre zumbi, Alice retorna para onde o pesadelo começou...',
-        'elenco': 'Milla Jovovich, Ruby Rose, Iain Glen, Shawn Roberts',
-        'poster': 'img/cartaz/ResidentEvil6.jpg',  # Corrigido
+        'poster': 'img/cartaz/AvengersEndgame.jpg',  
     },
 }
 
