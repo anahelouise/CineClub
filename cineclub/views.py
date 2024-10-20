@@ -9,29 +9,36 @@ def home(request):
 filmes = {
     1: {
         'titulo': 'Anjos da Noite',
-        'sinopse': 'Selene é uma vampira feroz que está em meio a uma guerra entre vampiros e lobisomens. Sua missão é proteger sua raça enquanto busca respostas sobre seu próprio passado.',
+        'sinopse': 'Selene é uma vampira feroz que está em meio a uma guerra entre vampiros e lobisomens...',
         'elenco': 'Kate Beckinsale, Scott Speedman, Michael Sheen',
-        'poster': 'static/img/cartaz/UnderworldBloodWars.jpg'
+        'poster': 'img/cartaz/UnderworldBloodWars.jpg',  # Corrigido
     },
     2: {
         'titulo': 'Oppenheimer',
-        'sinopse': 'O drama biográfico sobre J. Robert Oppenheimer, o cientista que liderou o Projeto Manhattan e ajudou a desenvolver a primeira bomba atômica durante a Segunda Guerra Mundial.',
+        'sinopse': 'O drama biográfico sobre J. Robert Oppenheimer...',
         'elenco': 'Cillian Murphy, Emily Blunt, Matt Damon, Robert Downey Jr.',
-        'poster': 'static\img\cartaz\Oppenheimer.png'
+        'poster': 'img/cartaz/Oppenheimer.png',  # Corrigido
     },
     3: {
         'titulo': 'Viúva Negra',
-        'sinopse': 'A espiã Natasha Romanoff, também conhecida como Viúva Negra, confronta os eventos sombrios de seu passado enquanto enfrenta uma nova ameaça global.',
+        'sinopse': 'A espiã Natasha Romanoff confronta os eventos sombrios de seu passado...',
         'elenco': 'Scarlett Johansson, Florence Pugh, David Harbour, Rachel Weisz',
-        'poster': 'static\img\cartaz\BlackWidow.jpg'
+        'poster': 'img/cartaz/BlackWidow.jpg',  # Corrigido
     },
     4: {
         'titulo': 'Vingadores Endgame',
-        'sinopse': 'Os Vingadores precisam lidar com a destruição causada por Thanos e buscar uma forma de restaurar o universo.',
+        'sinopse': 'Os Vingadores precisam lidar com a destruição causada por Thanos...',
         'elenco': 'Robert Downey Jr., Chris Evans, Mark Ruffalo, Chris Hemsworth',
-        'poster': 'static\img\cartaz\AvengersEndgame.jpg'
+        'poster': 'img/cartaz/AvengersEndgame.jpg',  # Corrigido
+    },
+    5: {
+        'titulo': 'Resident Evil 6: O Capitulo Final',
+        'sinopse': 'Sobrevivente do massacre zumbi, Alice retorna para onde o pesadelo começou...',
+        'elenco': 'Milla Jovovich, Ruby Rose, Iain Glen, Shawn Roberts',
+        'poster': 'img/cartaz/ResidentEvil6.jpg',  # Corrigido
     },
 }
+
 
 def movie_detail(request, movie_id):
     filme = filmes.get(movie_id, {})
