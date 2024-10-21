@@ -11,7 +11,7 @@ filmes = {
         'titulo': 'Resident Evil 6: O Capitulo Final',
         'sinopse': 'Sobrevivente do massacre zumbi, Alice retorna para onde o pesadelo começou...',
         'elenco': 'Milla Jovovich, Ruby Rose, Iain Glen, Shawn Roberts',
-        'poster': 'img/cartaz/1-ResidentEvil6.jpg',  
+        'poster': 'img/cartaz/1-ResidentEvil6.png',  
     },
     2: {
         'titulo': 'Oppenheimer',
@@ -68,6 +68,37 @@ filmes = {
         'elenco': 'Dwayne Johnson, Carla Gugino, Alexandra Daddario, Paul Giamatti',
         'poster': 'img/cartaz/10-AFalhaDeSanAndreas.jpg',
     },
+        11: {
+        'titulo': 'Piratas do Caribe: A Maldição do Pérola Negra',
+        'sinopse': 'O capitão Jack Sparrow e o ferreiro Will Turner se unem para resgatar Elizabeth Swann das mãos do pirata amaldiçoado Hector Barbossa, cujo navio, o Pérola Negra, esconde segredos sobrenaturais.',
+        'elenco': 'Johnny Depp, Orlando Bloom, Keira Knightley, Geoffrey Rush',
+        'poster': 'img/cartaz/11-PiratasDoCaribe.jpg',
+    },
+    12: {
+        'titulo': 'As Branquelas',
+        'sinopse': 'Dois agentes do FBI disfarçados precisam se passar por duas herdeiras ricas e mimadas para evitar um sequestro, mas a tarefa de se manterem disfarçados em um mundo de luxo e exageros não será nada fácil.',
+        'elenco': 'Shawn Wayans, Marlon Wayans, Terry Crews, Jaime King',
+        'poster': 'img/cartaz/12-AsBranquelas.jpeg',
+    },
+    13: {
+        'titulo': 'Ferrari',
+        'sinopse': 'Em 1957, Enzo Ferrari enfrenta desafios pessoais e profissionais enquanto tenta salvar sua empresa em meio a uma crise financeira e o iminente risco de falência. Paralelamente, ele se prepara para a perigosa corrida Mille Miglia.',
+        'elenco': 'Adam Driver, Penélope Cruz, Shailene Woodley, Patrick Dempsey',
+        'poster': 'img/cartaz/13-Ferrari.jpg',
+    },
+    14: {
+        'titulo': 'Interestelar',
+        'sinopse': 'Com a Terra à beira do colapso, um grupo de exploradores viaja através de um buraco de minhoca em uma missão desesperada para encontrar um novo lar para a humanidade.',
+        'elenco': 'Matthew McConaughey, Anne Hathaway, Jessica Chastain, Michael Caine',
+        'poster': 'img/cartaz/14-Interestelar.png',
+    },
+    15: {
+        'titulo': 'Need for Speed',
+        'sinopse': 'Um piloto de corridas ilegais recém-saído da prisão embarca em uma jornada para vingar a morte de seu melhor amigo e derrotar um rival traiçoeiro em uma perigosa corrida cross-country.',
+        'elenco': 'Aaron Paul, Dominic Cooper, Rami Malek, Dakota Johnson',
+        'poster': 'img/cartaz/15-NeedForSpeed.jpg',
+    },
+
 }
 
 
