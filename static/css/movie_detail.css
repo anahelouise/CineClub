@@ -14,72 +14,65 @@ body {
     padding: 20px;
 }
 
+/* Estilos do header */
+header {
+    display: flex;              /* Usa o flexbox para o layout */
+    justify-content: center;    /* Centraliza horizontalmente */
+    align-items: center;        /* Centraliza verticalmente */
+    height: 15px;
+    margin-top: 20px;
+    margin-bottom: 20px ;              /* O header ocupará toda a altura da tela */
+    background-color: #f1f1f1;  /* Cor de fundo opcional */
+}
 
-/* Seção de detalhes do filme */
+/* Ajusta o estilo do h1 */
+header h1 {
+    font-size: 2.5em;
+    font-weight: bold;
+    margin: 0;                  /* Remove margens padrão */
+    color: #333;                /* Cor opcional do texto */
+}
+
+
+/* Define uma largura máxima para o container do detalhe do filme */
 .movie-detail {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    background-color: #222;
-    border: 2px solid #444;
-    border-radius: 10px;
-    padding: 20px;
-    margin-top: 80px;
+    max-width: 1200px;
+    margin: 0 auto;
     text-align: center;
-    width: 100%;
-    max-width: 400px;
-    margin-left: auto;
-    margin-right: auto;
+    padding: 20px;
 }
 
+/* Ajusta a imagem para ser responsiva e centralizada */
 .movie-detail img {
-    width: 100%;
-    height: 400px;
-    object-fit: cover; /* Garante que a imagem ocupe todo o espaço sem distorcer */
-    border-radius: 6px;
-    margin-bottom: 20px;
+    max-width: 100%;  /* A imagem não ultrapassa a largura do container */
+    height: auto;  /* Mantém a proporção da imagem */
+    display: block;  /* Garante que a imagem ocupe uma nova linha */
+    margin: 0 auto 20px;  /* Centraliza horizontalmente e adiciona espaço abaixo da imagem */
+    border-radius: 10px;  /* Suave arredondamento nos cantos da imagem */
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);  /* Sombra leve para dar destaque */
 }
 
+/* Outros estilos de texto */
 .movie-detail h2 {
-    font-size: 1.8rem;
-    color: #fff;
-    margin-bottom: 15px;
+    font-size: 2em;
+    margin: 20px 0;
 }
 
 .movie-detail p {
-    font-size: 1rem;
-    color: #ccc;
-    margin-bottom: 10px;
+    font-size: 1.2em;
+    line-height: 1.5;
 }
 
-/* Seção de comentários */
+/* Estilo da seção de comentários */
 .comments-section {
-    background-color: #333;
-    border: 2px solid #444;
-    border-radius: 10px;
+    margin-top: 40px;
     padding: 20px;
-    margin-top: 30px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .comments-section h3 {
-    font-size: 1.5rem;
-    color: #fff;
+    font-size: 1.8em;
     margin-bottom: 15px;
-}
-
-.comments-section p {
-    font-size: 1rem;
-    color: #ccc;
-}
-
-/* Responsividade */
-@media (max-width: 768px) {
-    .movie-detail {
-        width: 90%;
-    }
-
-    .movie-detail img {
-        height: auto; /* Ajuste para telas menores */
-    }
 }

@@ -11,13 +11,13 @@ filmes = {
         'titulo': 'Resident Evil 6: O Capitulo Final',
         'sinopse': 'Sobrevivente do massacre zumbi, Alice retorna para onde o pesadelo começou...',
         'elenco': 'Milla Jovovich, Ruby Rose, Iain Glen, Shawn Roberts',
-        'poster': 'img/cartaz/1-ResidentEvil6.png',  
+        'poster': 'img/cartaz/1-ResidentEvil6.jpg',  
     },
     2: {
         'titulo': 'Oppenheimer',
         'sinopse': 'O drama biográfico sobre J. Robert Oppenheimer...',
         'elenco': 'Cillian Murphy, Emily Blunt, Matt Damon, Robert Downey Jr.',
-        'poster': 'img/cartaz/2-Oppenheimer.png',  
+        'poster': 'img/cartaz/2-Oppenheimer.jpg',  
     },
     3: {
         'titulo': 'Anjos da Noite',
@@ -54,7 +54,7 @@ filmes = {
         'titulo': 'Velozes e Furiosos 6',
         'sinopse': 'Dom e sua equipe são recrutados por Hobbs para derrubar uma organização de mercenários habilidosos em direção ao caos global. Com a promessa de perdão total, eles precisam enfrentar inimigos letais e desafios perigosos.',
         'elenco': 'Vin Diesel, Paul Walker, Dwayne Johnson, Michelle Rodriguez, Jordana Brewster',
-        'poster': 'img/cartaz/8-VelozesEFuriosos.png',
+        'poster': 'img/cartaz/8-VelozesEFuriosos.jpg',
     },
     9: {
         'titulo': 'Lucy',
@@ -78,7 +78,7 @@ filmes = {
         'titulo': 'As Branquelas',
         'sinopse': 'Dois agentes do FBI disfarçados precisam se passar por duas herdeiras ricas e mimadas para evitar um sequestro, mas a tarefa de se manterem disfarçados em um mundo de luxo e exageros não será nada fácil.',
         'elenco': 'Shawn Wayans, Marlon Wayans, Terry Crews, Jaime King',
-        'poster': 'img/cartaz/12-AsBranquelas.jpeg',
+        'poster': 'img/cartaz/12-AsBranquelas.jpg',
     },
     13: {
         'titulo': 'Ferrari',
@@ -90,7 +90,7 @@ filmes = {
         'titulo': 'Interestelar',
         'sinopse': 'Com a Terra à beira do colapso, um grupo de exploradores viaja através de um buraco de minhoca em uma missão desesperada para encontrar um novo lar para a humanidade.',
         'elenco': 'Matthew McConaughey, Anne Hathaway, Jessica Chastain, Michael Caine',
-        'poster': 'img/cartaz/14-Interestelar.png',
+        'poster': 'img/cartaz/14-Interstelar.jpg',
     },
     15: {
         'titulo': 'Need for Speed',
