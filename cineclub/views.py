@@ -1,11 +1,9 @@
 from django.http import HttpResponse
 from django.shortcuts import render
 
-# Create your views here.
 def home(request):
     return render(request, 'home.html')
 
-# Dicionário com informações dos filmes
 filmes = {
     1: {
         'titulo': 'Resident Evil 6: O Capitulo Final',
